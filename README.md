@@ -4,7 +4,9 @@ By Zhen Liu<sup>1,2</sup>, Wenjie Lin<sup>1</sup>, Xinpeng Li<sup>1</sup>, Qing 
 
 <sup>1</sup>Megvii Technology, <sup>2</sup>Sichuan University, <sup>3</sup>University of Electronic Science and Technology of China
 
-This is the official Pytorch implementation of *ADNet: Attention-guided Deformable Convolutional Network for High Dynamic Range Imaging*. (Code will be released soon...)
+This is the official Pytorch implementation of *ADNet: Attention-guided Deformable Convolutional Network for High Dynamic Range Imaging*. 
+
+[arXiv](https://arxiv.org/abs/2105.10697)
 
 ![](./images/teaser.png)
 
