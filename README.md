@@ -54,3 +54,15 @@ python train.py
 
 Part of our codes are adapted from [AHDRNet](https://arxiv.org/abs/1904.10293) and [EDVR](https://arxiv.org/abs/1905.02716?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%253A+arxiv%252FQSXk+%2528ExcitingAds%2521+cs+updates+on+arXiv.org%2529) we thank the authors for their contributions.
 
+## BibTex
+
+```
+@inproceedings{liu2021adnet,
+  title={ADNet: Attention-guided deformable convolutional network for high dynamic range imaging},
+  author={Liu, Zhen and Lin, Wenjie and Li, Xinpeng and Rao, Qing and Jiang, Ting and Han, Mingyan and Fan, Haoqiang and Sun, Jian and Liu, Shuaicheng},
+  booktitle={CVPRW},
+  pages={463--470},
+  year={2021}
+}
+```
+
