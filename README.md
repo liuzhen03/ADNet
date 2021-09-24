@@ -8,9 +8,20 @@ This is the official Pytorch implementation of *ADNet: Attention-guided Deformab
 
 [arXiv](https://arxiv.org/abs/2105.10697)
 
-![](./images/teaser.png)
+<img src="./images/teaser.png" style="zoom:50%;" />
+
+## News
+
+Sep 24, 2021. We update the result on [Kalantari et al.'s dataset](https://people.engr.tamu.edu/nimak/Data/SIGGRAPH17_HDR_LoRes.pdf).
+
+<img src="./images/quantative-result-sig17.png" style="zoom:25%;" />
+
+![](./images/result-sig17.png)
+
+
 
 ## Introduction
+
 In this paper, we present an attention-guided deformable convolutional network for hand-held multi-frame high dynamic range (HDR) imaging, namely ADNet. This problem comprises two intractable challenges of how to handle saturation and noise properly and how to tackle misalignments caused by object motion or camera jittering. To address the former, we adopt a spatial attention module to adaptively select the most appropriate regions of various exposure low dynamic range (LDR) images for fusion. For the latter one, we propose to align the gamma-corrected images in the feature-level with a Pyramid, Cascading and Deformable (PCD) alignment module. The proposed ADNet shows state-of-the-art performance compared with previous methods, achieving a PSNR-l of 39.4471 and a PSNR-µ of 37.6359 in NTIRE 2021 Multi-Frame HDR Challenge.
 
 ![](./images/pipeline.png)
