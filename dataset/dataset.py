@@ -98,9 +98,10 @@ class NTIRE_Validation_Dataset(Dataset):
         image_short = ev_alignment(ldr_images[0], floating_exposures[0], 2.24)
         image_medium = ldr_images[1]
         image_long = ev_alignment(ldr_images[2], floating_exposures[2], 2.24)
-        image_short_concat = np.concatenate((image_short, ldr_images[0]), 2)
-        image_medium_concat = np.concatenate((image_medium, ldr_images[1]), 2)
-        image_long_concat = np.concatenate((image_long, ldr_images[2]), 2)
+
+        image_short_concat = np.concatenate((ldr_images[0], image_short), 2)
+        image_medium_concat = np.concatenate((ldr_images[1], image_medium), 2)
+        image_long_concat = np.concatenate((ldr_images[2], image_long), 2)
 
         x = 0
         y = 0
